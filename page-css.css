@@ -53,6 +53,7 @@ header{
     justify-content: space-between;
     padding: 5px; 
     width: 100%;
+    border-bottom: 2px solid rgb(0, 60, 255);
 }
 .pagelinks a{
     color: white; 
@@ -60,8 +61,7 @@ header{
     margin-left: 20px;
 }
 #current-page{
-    color: rgb(0, 60, 255); 
-    border-bottom: 1px solid rgb(0, 60, 255);
+    color: rgb(0, 60, 255);
 }
 .showcase{
     background-color: #f4f4f4;
@@ -127,6 +127,9 @@ header{
 }
 @media screen and (max-width:1000px) {
     .pagelinks{display: none;}
+    .searchbar{display: none;}
+    .container{display: block;}
+    .box{width: 95%;margin: 10px;}
 }
 @media screen and (min-width:1000px) {
     #menu-btn{display: none;}
